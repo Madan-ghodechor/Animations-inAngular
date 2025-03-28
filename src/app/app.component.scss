@@ -1,0 +1,10 @@
+/* animated-component.component.scss */
+
+.animate-me {
+    will-change: transform, opacity;
+  }
+  
+  .stagger-item {
+    will-change: transform, opacity;
+  }
+  

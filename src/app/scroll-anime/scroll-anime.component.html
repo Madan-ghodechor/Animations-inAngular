@@ -1,0 +1,22 @@
+<div class="container">
+
+    <button (click)="initAOS()">Animate</button>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <!-- <div data-aos="fade-up">
+        This content will fade up when it scrolls into view.
+    </div> -->
+
+    <div class="cards-container">
+        <ng-container *ngFor="let card of cards;let i=index">
+            <div class="card" data-aos="fade-up" [attr.data-aos-delay]="i * 100" [ngStyle]="{ 'background-image': 'url(' + card.img + ')' }"></div>
+        </ng-container>
+    </div>
+
+
+
+</div>

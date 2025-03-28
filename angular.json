@@ -39,9 +39,12 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/aos/dist/aos.css",
+              "node_modules/shepherd.js/dist/css/shepherd.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js"            ]
           },
           "configurations": {
             "production": {
